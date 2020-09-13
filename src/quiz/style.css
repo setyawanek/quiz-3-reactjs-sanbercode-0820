@@ -1,0 +1,205 @@
+body {
+    background-image: url(./img/pattern.jpg);
+    font-family: serif;
+    margin: 0px;
+    height:100%;
+}
+a:link{
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+h1 {
+    text-align: center;
+}
+h3{
+    color: purple;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* movie image */
+.movie-image {
+    /* width: 100%; */
+    flex: 1 0 50%;
+}
+
+.movie-details {
+    /* width: 100%; */
+    flex-grow: 1;
+}
+
+.movie-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding-right: 15px;
+}
+
+/* FormMovie */
+
+.FormMovie div{
+    padding-left:2px;
+    font-family:serif;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+.FormMovie table{
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FormMovie th {
+    background-color: #aaaaaa;
+    text-align: center;
+}
+.FormMovie td {
+    background-color: skyblue;
+}
+
+.FormMovie h1{
+    text-align:center;}
+
+#edit, #delete {
+    background-color: rgba(156, 156, 156, 0.164);
+    color: white;
+}
+
+#edit {
+    margin-right: 5px;
+}
+
+#edit:hover {
+    background-color: rgb(80, 185, 255);
+    color: white;
+    margin-right: 5px;
+    transition: all 0.15s ease;
+}
+
+#delete:hover {
+    background-color: rgb(226, 47, 47);
+    color: white;
+    transition: all 0.15s ease;
+}
+
+.inputan{
+    display: grid;
+    width: 150px;
+    padding: 5px 0;
+    margin-bottom: 1em;
+    text-align: left;
+    margin: auto;
+    
+}
+
+.inputan input,  textarea{
+    margin-left: 600px;
+}
+
+.inputan button{
+    background-color: rgb(52, 247, 14);
+    margin-top: 10px;
+    width: 80px;
+    padding: 5px 0 ;
+    border: 1px solid grey;
+    outline: none;
+    font-weight: 600;
+    
+}
+
+
+/* login */
+.Login {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    padding: 35px;
+    margin-bottom: 300px;
+    }
+  
+.Login form {
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100px;
+}
+
+.login input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+#btn-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+#btn-login:hover {
+    opacity: 0.8;
+}
+
